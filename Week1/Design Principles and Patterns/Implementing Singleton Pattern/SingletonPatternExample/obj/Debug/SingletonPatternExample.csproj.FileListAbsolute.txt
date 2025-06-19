@@ -1,7 +1,0 @@
-C:\Users\KIIT\source\repos\Digital-Nurture-0.4-HandsOn\Week1\Design Principles and Patterns\Implementing Singleton Pattern\SingletonPatternExample\bin\Debug\SingletonPatternExample.exe.config
-C:\Users\KIIT\source\repos\Digital-Nurture-0.4-HandsOn\Week1\Design Principles and Patterns\Implementing Singleton Pattern\SingletonPatternExample\bin\Debug\SingletonPatternExample.exe
-C:\Users\KIIT\source\repos\Digital-Nurture-0.4-HandsOn\Week1\Design Principles and Patterns\Implementing Singleton Pattern\SingletonPatternExample\bin\Debug\SingletonPatternExample.pdb
-C:\Users\KIIT\source\repos\Digital-Nurture-0.4-HandsOn\Week1\Design Principles and Patterns\Implementing Singleton Pattern\SingletonPatternExample\obj\Debug\SingletonPatternExample.csproj.AssemblyReference.cache
-C:\Users\KIIT\source\repos\Digital-Nurture-0.4-HandsOn\Week1\Design Principles and Patterns\Implementing Singleton Pattern\SingletonPatternExample\obj\Debug\SingletonPatternExample.csproj.CoreCompileInputs.cache
-C:\Users\KIIT\source\repos\Digital-Nurture-0.4-HandsOn\Week1\Design Principles and Patterns\Implementing Singleton Pattern\SingletonPatternExample\obj\Debug\SingletonPatternExample.exe
-C:\Users\KIIT\source\repos\Digital-Nurture-0.4-HandsOn\Week1\Design Principles and Patterns\Implementing Singleton Pattern\SingletonPatternExample\obj\Debug\SingletonPatternExample.pdb
