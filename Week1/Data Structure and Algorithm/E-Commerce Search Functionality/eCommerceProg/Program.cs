@@ -1,6 +1,10 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ECommerceSearch
+namespace eCommerceSearchVS
 {
     public class Product
     {
@@ -22,11 +26,11 @@ namespace ECommerceSearch
         {
             Product[] products = new Product[]
             {
-                new Product(1, "Laptop", "Electronics"),
-                new Product(2, "Shoes", "Footwear"),
-                new Product(3, "Phone", "Electronics"),
-                new Product(4, "T-Shirt", "Clothing"),
-                new Product(5, "Keyboard", "Electronics")
+                new Product(101, "Book", "Education"),
+                new Product(102, "Headphones", "Electronics"),
+                new Product(103, "Backpack", "Accessories"),
+                new Product(104, "Notebook", "Stationery"),
+                new Product(105, "Pen", "Stationery")
             };
 
             Console.WriteLine("=== E-Commerce Product Search ===");
@@ -44,7 +48,6 @@ namespace ECommerceSearch
             PrintResult(binaryResult);
 
             Console.WriteLine("\n=== Search Complete ===");
-            PrintAnalysis();
         }
 
         static Product LinearSearch(Product[] products, string name)
@@ -88,25 +91,6 @@ namespace ECommerceSearch
             {
                 Console.WriteLine(" Product not found.");
             }
-        }
-
-        static void PrintAnalysis()
-        {
-            Console.WriteLine("\n Analysis");
-
-            Console.WriteLine("\n🔸 Linear Search:");
-            Console.WriteLine("   - Time Complexity: O(n)");
-            Console.WriteLine("   - Scans each element one by one.");
-            Console.WriteLine("   - Suitable for small or unsorted datasets.");
-
-            Console.WriteLine("\n🔸 Binary Search:");
-            Console.WriteLine("   - Time Complexity: O(log n)");
-            Console.WriteLine("   - Requires the array to be sorted.");
-            Console.WriteLine("   - Much faster for large datasets.");
-
-            Console.WriteLine("\n Recommendation:");
-            Console.WriteLine("   - Use Binary Search for large, sorted product lists.");
-            Console.WriteLine("   - Use Linear Search if sorting is not possible or data is small.");
         }
     }
 }
