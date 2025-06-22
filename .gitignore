@@ -1,3 +1,4 @@
 SingletonPatternExample.sln
 *.csproj
 **/obj/
+*.gitkeep
